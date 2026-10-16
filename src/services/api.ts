@@ -3,7 +3,7 @@ import type {
   RegisterRequest, RegisterResponse, UploadResponse, VoiceResponse,
 } from "../types/api";
 
-const API_BASE_URL = (process.env.NEXT_PUBLIC_API_BASE_URL || process.env.VITE_API_BASE_URL || "http://localhost:5000/api/v1").replace(/\/$/, "");
+const API_BASE_URL = (process.env.NEXT_PUBLIC_API_BASE_URL || process.env.VITE_API_BASE_URL || "http://104.156.254.236:5000/api/v1").replace(/\/$/, "");
 const TOKEN_KEY = "pdfchangeai_token";
 const USER_KEY = "pdfchangeai_user";
 
